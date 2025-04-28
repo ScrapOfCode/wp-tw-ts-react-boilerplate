@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "scrappy/section",
+  "apiVersion": 3,
+  "title": "Section block",
+  "description": "A scrappy section block. Use it for proper alignment!",
+  "category": "widgets",
+  "version": "0.0.1",
+  "icon": "fas fa-square",
+  "supports": {
+    "html": false,
+    "className": true
+  },
+  "textdomain": "scrappy",
+  "editorScript": "file:./index.tsx",
+  "editorStyle": "scrappy-global-style",
+  "style": "scrappy-global-style",
+  "attributes": {}
+}

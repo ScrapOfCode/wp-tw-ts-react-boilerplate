@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@layer theme, base, components, utilities;
+
+@theme {
+    --color-white-50: oklch(100% 0 0);
+    --color-white-100: oklch(95.39% 0.004 276.75);
+    --color-white-200: oklch(90.18% 0.007 276.74);
+    --color-white-300: oklch(80.47% 0.011 276.77);
+    --color-white-400: oklch(66.98% 0.016 276.74);
+    --color-white-500: oklch(56.41% 0.02 276.71);
+    --color-white-600: oklch(48.85% 0.025 276.7);
+    --color-white-700: oklch(42.95% 0.022 276.7);
+    --color-white-800: oklch(39.06% 0.02 276.7);
+    --color-white-900: oklch(35.96% 0.018 276.71);
+    --color-white-950: oklch(27.97% 0.014 276.72);
+
+    --color-fruit-salad-50: oklch(97.62% 0.01 144.08);
+    --color-fruit-salad-100: oklch(94.06% 0.019 144.15);
+    --color-fruit-salad-200: oklch(87.08% 0.035 144.22);
+    --color-fruit-salad-300: oklch(76.62% 0.057 144.23);
+    --color-fruit-salad-400: oklch(62.06% 0.08 144.26);
+    --color-fruit-salad-500: oklch(49.61% 0.085 144.23);
+    --color-fruit-salad-600: oklch(42.19% 0.08 144.28);
+    --color-fruit-salad-700: oklch(35.65% 0.07 144.27);
+    --color-fruit-salad-800: oklch(30.49% 0.061 144.28);
+    --color-fruit-salad-900: oklch(26.24% 0.052 144.31);
+    --color-fruit-salad-950: oklch(12.82% 0.025 144.4);
+
+    --color-woodsmoke-50: oklch(96.73% 0 0);
+    --color-woodsmoke-100: oklch(91.24% 0.004 276.75);
+    --color-woodsmoke-200: oklch(83.66% 0.007 276.75);
+    --color-woodsmoke-300: oklch(72.1% 0.011 276.76);
+    --color-woodsmoke-400: oklch(58.52% 0.016 276.74);
+    --color-woodsmoke-500: oklch(48.66% 0.02 276.71);
+    --color-woodsmoke-600: oklch(42.17% 0.025 276.7);
+    --color-woodsmoke-700: oklch(36.87% 0.022 276.7);
+    --color-woodsmoke-800: oklch(32.93% 0.02 276.7);
+    --color-woodsmoke-900: oklch(29.96% 0.018 276.71);
+    --color-woodsmoke-950: oklch(13.43% 0.014 276.71);
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "scrappy/text",
+  "apiVersion": 3,
+  "title": "Text",
+  "description": "A custom paragraph block with Tailwind support.",
+  "category": "text",
+  "version": "0.0.1",
+  "icon": "fas fa-paragraph",
+  "supports": {
+    "html": false,
+    "className": true
+  },
+  "textdomain": "scrappy",
+  "editorScript": "file:./index.tsx",
+  "editorStyle": "scrappy-global-style",
+  "style": "scrappy-global-style"
+}
